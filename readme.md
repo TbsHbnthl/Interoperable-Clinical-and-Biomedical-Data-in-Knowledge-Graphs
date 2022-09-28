@@ -1,6 +1,6 @@
 # Documentation
 
-<img src="abb/Bioinf.pdf" align="right" width="200" alt="Drawing" style="float:right;width: 200px;"/>
+<img src="abb/Bioinf.png" align="right" width="400" alt="Drawing" style="float:right;width: 200px;"/>
 
 A software package to create interoperable clinical data in a knowledge graph.
 
