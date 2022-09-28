@@ -8,13 +8,15 @@ A software package to create interoperable clinical data in a knowledge graph.
 
 Knowledge graphs have been shown to play an important role in recent knowledge mining settings, and contextual information is widely used for NLP and knowledge discovery tasks. We combine all these methods to present a generic approach for linking data from different data sources, e.g. PubMed, medical and clinical data and documents.
 
-<img src="abb/exg.png" align="right" width="200" alt="Drawing" style="float:right;width: 200px;"/>
+
 
 ## Importer
 
 The idea of the importer lies in the generic transferability to other data and a user-specific view and configuration. Depending on the given context and existing data, it should be possible to work with individual data and graphs. For this reason, the importer is preceded by a config file. This is an ini file, in which can be specified after given scheme, which nodes are desired by the user and which attributes and relations they should have. Any additional information contained in the data is then not taken into account during the import. See also [[https://github.com/TbsHbnthl/master-s-thesis-link-prediction-on-large-scale-knowledge-graphs]] for further data and information.
 
 Within the config file the desired nodes are declared as sections in square brackets. Under it the following key-value pairs are stored in each case, whereby for the present work exemplarily with a self-selected configuration one works:
+
+<img src="abb/exg.png" align="right" width="200" alt="Drawing" style="float:right;width: 200px;"/>
 
 * relationsto: Here all sections of the node types are specified, to which the nodes of the given section in the graph to be created should have edges.
 * relationtypes: Under this key all relation types are specified. The i-th relation type correlates with the edge to the i-th node specified in the line above. The naming of the relations is based on the Dublin Core standard.
@@ -60,7 +62,6 @@ These CSV files have already been created by the importer. They are stored under
 
 The functions considered here are concrete. ρ assigns a pair of nodes to each edge. This is reflected in the CSV files. 
 
-Translated with www.DeepL.com/Translator (free version)
 ```
 : START_ID, : END_ID,type,provenance,relationUID
 LUNGx−CT025,064Y,hasAge,LUNGx−CT0251 −013. dcm,LUNGx−CT025hasAge064YLUNGx−CT0251 −013. dcm
