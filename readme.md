@@ -58,7 +58,7 @@ For details on the process itself we refer to: https://github.com/TbsHbnthl/mast
 
 The data is imported using the Admin import tool (see [60]) of Neo4j. This can only be done for a previously empty database and is only used for the initial loading of the data into the database. The procedure is suitable for very large data sets. For this, Neo4j Community Server version 4.3.2 is first downloaded from the Neo4j Download Center [61]. Then, two different CSV files are needed to import each node and relation according to the instructions in [60]. The first one contains the actual data and the second one represents the header file. The latter contains the column headers for the former.
 
-These CSV files have already been created by the importer. They are stored under the directory $NEO4J_HOME/import. Here $NEO4J_HOME denotes the local folder where the Neo4j server is located. The console is then used to navigate to the corresponding directory and enter the import command. This follows the pattern is stored at https://github.com/TbsHbnthl/ master-s-thesis-link-prediction-on-large-scale-knowledge-graphs/tree/ main/Neo4j_ready for the data used here.
+These CSV files have already been created by the importer. They are stored under the directory $NEO4J_HOME/import. Here $NEO4J_HOME denotes the local folder where the Neo4j server is located. The console is then used to navigate to the corresponding directory and enter the import command. This follows the pattern is stored at https://github.com/TbsHbnthl/master-s-thesis-link-prediction-on-large-scale-knowledge-graphs/tree/ main/Neo4j_ready for the data used here.
 
 The functions considered here are concrete. ρ assigns a pair of nodes to each edge. This is reflected in the CSV files. 
 
